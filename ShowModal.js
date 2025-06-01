@@ -11,7 +11,6 @@ const Home = () => {
       <Header dataApi={getdataAPI} />
     <SearchAndFilter openModal={ ()=> setShowModal(true)} />  // pass the props on click it will call the call back function and setShow as true
       <div className="underLine"></div>
-      <div>Hello world</div>
       <TaskHeading />
         
     </div>
