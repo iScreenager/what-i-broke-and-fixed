@@ -11,7 +11,7 @@ All user data was being stored in `localStorage`. This meant even **guest users 
 
 ---
 
-##  What I Tried
+## 🧠 What I Tried
 
 - Checked where and how I was saving login data for all users.
 - Realized all login types were using the same logic to store user info in `localStorage`.
@@ -19,7 +19,7 @@ All user data was being stored in `localStorage`. This meant even **guest users 
 
 ---
 
-##  Solution
+## ✅ Solution
 
 Changed the storage mechanism:
 - Regular users (email/password or Google): still using `localStorage`.
@@ -49,10 +49,5 @@ const storedUser = JSON.parse(
 
 Use `sessionStorage` for temporary session data. It’s cleared automatically when the app or tab is closed — ideal for guest or demo users who shouldn't stay logged in.
 
-```
 
-
-This format makes it easy for future-you to remember *why* you made that decision and how you implemented it.
-
-Would you like help creating a reusable snippet or utility function for this login storage logic?
 
