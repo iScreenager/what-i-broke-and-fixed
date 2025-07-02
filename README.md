@@ -1,3 +1,3 @@
-# react_learnings
+#what-i-broke-and-fixed
 This is my personal repo where i have put a logic of codes and issues that i fixed  
 
