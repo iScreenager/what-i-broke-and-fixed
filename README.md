@@ -3,4 +3,6 @@ This is my personal repo where I write down problems I faced while building proj
 
 ## 🔧 Frontend Issues
 - [CSS: Buttons Without Type="button" Trigger Unwanted Form Submission](FrontendIssue/ButtonsWithoutTypeTriggerUnwantedFormSubmission.md)
+- [Storage: Temporary Storage for Guest Users](FrontendIssue/guest-login-session-storage.md)
+
 
